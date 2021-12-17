@@ -202,7 +202,7 @@ const projects = [
     projectDescription:
       "Designed & Built the Portfolio using HTML CSS and Vanilla JavaScript to show case the Professional Journey.",
     projectImage: "images/portfolio.png",
-    codeLink: "",
+    codeLink: "https://github.com/atulpatill/portfolio-atul-patil",
     demoLink: ""
   },
   {
