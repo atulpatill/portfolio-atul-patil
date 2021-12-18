@@ -469,3 +469,7 @@ h6 {
         height: 25px;width: 25px;
     }
 }
+
+#cofee:hover{
+  color: #7e4c74;
+}
