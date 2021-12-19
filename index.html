@@ -32,24 +32,25 @@
     
   
     <style>
-      #blog{
-        box-sizing: border-box;
+      .blog{
+       display: inline-block;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin: 0px 160px;
+    margin: 4px 160px;
      color: thistle;
      border-radius: 5px;
      background-color: black;
      font-family: "Russo One", sans-serif;
       }
-      #blog:hover{
+      .blog:hover{
         background-color: black;
     border-radius: 5px;
     border:2px solid blueviolet ;
   
       }
       .blogs{
-        margin: 12px 10px;
+        /* margin: 12px 10px; */
+        margin: 34px 15px;
     padding: 1px;
     
       }
@@ -121,8 +122,11 @@
               </div>
             </div>
             <div class="blogs">
-              <p >I recently started writing some technical and non techincal blogs. As they say, "The worst thing you write is better than the best thing you didn't write". You can check my blogs here</p>
-              <a class="blogs" href="https://hashnode.com/@Atul-Patil" target="_blank" ><button id="blog">Read My Blogs</button></a> 
+             <a class="blog" href="#about" >More about me?</a> 
+              <!-- <p >I recently started writing some technical and non techincal blogs. As they say, "The worst thing you write is better than the best thing you didn't write". You can check my blogs here</p> -->
+              <a class="blog" href="https://hashnode.com/@Atul-Patil" target="_blank" >Read My Blogs</a> 
+            
+             <a href="#plug" class="blog" >My Projects</a> 
            </div>
           </div>
         </div>
@@ -133,7 +137,7 @@
       <div class="main-container">
         <div class="about-wrapper">
           <div class="about-me">
-            <h4>More about me</h4>
+            <h4 id="about">More about me</h4>
             <p>I am outgoing, dedicated, and open-minded,BE Mechnical guy turned techie😀. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time. Currently, I am looking for new career opportunities at starting of my career</p>
             <p>
               Apart from work, I love to build new projects just to
@@ -197,7 +201,7 @@
 
     <section class="s1">
       <div class="main-container">
-        <h3 style="text-align: center">Some of my past projects</h3>
+        <h3 id="plug" style="text-align: center">Some of my past projects</h3>
 
         <div class="post-wrapper" id="post-wrapper-id"></div>
       </div>
