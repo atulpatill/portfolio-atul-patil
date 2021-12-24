@@ -178,7 +178,7 @@ const projects = [
     projectDescription:
       "Firegram is Photo Uploading Application like photo gallery app build by with React & Firebase, In this app you can upload images so that other users of the site can see the updates.",
     projectImage: "images/Firegram.png",
-    codeLink: "https://github.com/CodeOpsTechnologies/talent-board-fe",
+    codeLink: "https://github.com/atulpatill/Firegram",
     demoLink: "https://firegram-photo-app.netlify.app/"
   },
   {
