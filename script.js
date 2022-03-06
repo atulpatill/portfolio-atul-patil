@@ -148,7 +148,7 @@ const projects = [
     projectName: "E-Commerce",
     projectDescription:
       "Fully functional web shop with a add to cart, place order & search for item feature made by using ReactJS,Redux, Firebase & bootstrap5",
-    projectImage: "images/LinkedInClone.png",
+    projectImage: "images/Ecommerce.png",
     codeLink: "https://github.com/atulpatill/e-commerce-web-shop",
     demoLink: "https://webkart-shopping.netlify.app/"
   },
