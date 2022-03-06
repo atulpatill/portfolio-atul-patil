@@ -145,6 +145,14 @@ class Project {
 
 const projects = [
   {
+    projectName: "E-Commerce",
+    projectDescription:
+      "Fully functional web shop with a add to cart, place order & search for item feature made by using ReactJS,Redux, Firebase & bootstrap5",
+    projectImage: "images/LinkedInClone.png",
+    codeLink: "https://github.com/atulpatill/e-commerce-web-shop",
+    demoLink: "https://webkart-shopping.netlify.app/"
+  },
+  {
     projectName: "LinkedIn Clone",
     projectDescription:
       "LinkedIn clone built by using React,Redux & Firebase,It is a highly scalable, low cost and high performant clone application.",
